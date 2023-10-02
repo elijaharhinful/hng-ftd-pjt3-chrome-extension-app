@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>HelpMeOut</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="home__head">
+            <div class="home__head--header">
+                <div class="logo">
+                    <img src="./assets/images/logos/HelpMeOutLogo.svg" alt="HelpMeOut" class="logo" />
+                    <span>HelpMeOut</span>
+                </div>
+                <div class='settings'>
+                    <img src="./assets/images/icons/setting.svg" alt="Settings" class='settings-icon' />
+                    <img src="./assets/images/icons/close-circle.svg" alt="Close" class='close' />
+                </div>
+            </div>
+            <div class="home__head--description">
+                <p>This extension helps you record and share help videos with ease.</p>
+            </div>
+        </div>
+        <div class="home__body">
+            <div class="home__body--icons">
+                <div class='full_screen'>
+                    <img src="./assets/images/icons/monitor.svg" alt="Full Screen" />
+                    <span>Full screen</span>
+                </div>
+                <div class='current'>
+                    <img src=./assets/images/icons/copy.svg alt="Current Tab" />
+                    <span>Current Tab</span>
+                </div>
+            </div>
+            <div class="camera">
+                <div class="camera--icon">
+                    <img src="./assets/images/icons/video-camera.svg" alt="camera" />
+                    <span>Camera</span>
+                </div>
+                <div class="toggle-slider">
+                    <input type="checkbox" id="cameraToggle" />
+                    <label for="cameraToggle" class="slider"></label>
+                </div>
+            </div>
+            <div class="audio">
+                <div class="audio--icon">
+                    <img src="./assets/images/icons/microphone.svg" alt="microphone" />
+                    <span>Audio</span>
+                </div>
+                <div class="toggle-slider">
+                    <input type="checkbox" id="audioToggle" />
+                    <label for="audioToggle" class="slider"></label>
+                </div>
+            </div>
+            <a href="#" class='button button--large' id="start_video" >Start Recording</a>
+            <a href="#" class='button button--large' id="stop_video">Stop Recording</a>
+        </div>
+    </div>
+
+    <script src="./js/popup.js"></script>
+
+</body>
+
+</html>
